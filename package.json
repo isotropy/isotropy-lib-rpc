@@ -1,0 +1,39 @@
+{
+  "name": "isotropy-lib-rpc",
+  "version": "0.1.0",
+  "description": "RPC Backend for the Isotropy Project",
+  "author": "Arivanandan<uarivanandan@gmail.com>",
+  "contributors": [
+    "Jeswin Kumar<jeswinpk@agilehead.com>",
+    "Arivanandan U<uarivanandan@gmail.com>"
+  ],
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha dist/test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isotropy/isotropy-lib-rpc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/isotropy/isotropy-lib-rpc/issues"
+  },
+  "dependencies": {
+    "es6-promise": "^4.1.1",
+    "isomorphic-fetch": "^2.2.1"
+  },
+  "devDependencies": {
+    "babelify": "^7.3.0",
+    "mocha": "^3.4.2",
+    "should": "^11.2.1",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.22.1",
+    "babel-preset-latest": "^6.22.0",
+    "babel-preset-modern-browsers": "^8.0.0",
+    "babel-preset-stage-2": "^6.22.0"
+  },
+  "license": "MIT"
+}

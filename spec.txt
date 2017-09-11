@@ -1,0 +1,5 @@
+# isotropy-lib-fs
+Filesystem Library for the Isotropy Project
+
+1. post(url, paramters)
+  returns a promise
