@@ -1,4 +1,4 @@
-import "isomorphic-fetch"
+import "isomorphic-fetch";
 
 export async function post(url, parameters) {
   const data = {
@@ -7,8 +7,6 @@ export async function post(url, parameters) {
     headers: new Headers()
   };
   const response = await fetch(url, data);
-  return response;
+  const jsonResponse = await response.json();
+  return jsonResponse;
 }
-
-post("https://www.google.co.in/", { q: "something" })
-.then(response => console.log(response));
