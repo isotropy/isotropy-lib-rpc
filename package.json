@@ -7,7 +7,7 @@
     "Jeswin Kumar<jeswinpk@agilehead.com>",
     "Arivanandan U<uarivanandan@gmail.com>"
   ],
-  "main": "index.js",
+  "main": "dist/rpc.js",
   "directories": {
     "test": "tests"
   },
