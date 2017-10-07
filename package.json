@@ -1,11 +1,11 @@
 {
-  "name": "isotropy-lib-rpc",
+  "name": "isotropy-lib-webservices",
   "version": "0.1.0",
   "description": "RPC Backend for the Isotropy Project",
-  "author": "Arivanandan<uarivanandan@gmail.com>",
+  "author": "Isotropy Team<isotropy@agilehead.com>",
   "contributors": [
-    "Jeswin Kumar<jeswinpk@agilehead.com>",
-    "Arivanandan U<uarivanandan@gmail.com>"
+    "Arivanandan U<uarivanandan@gmail.com>",
+    "Jeswin Kumar<jeswinpk@agilehead.com>"
   ],
   "main": "dist/rpc.js",
   "directories": {
@@ -16,10 +16,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/isotropy/isotropy-lib-rpc.git"
+    "url": "https://github.com/isotropy/isotropy-lib-webservices.git"
   },
   "bugs": {
-    "url": "https://github.com/isotropy/isotropy-lib-rpc/issues"
+    "url": "https://github.com/isotropy/isotropy-lib-webservices/issues"
   },
   "dependencies": {
     "es6-promise": "^4.1.1",
