@@ -1,11 +1,14 @@
 # isotropy-lib-webservices
-RPC Library for the Isotropy Project
+Web Services Library for the Isotropy Project
 
+GET, PUT, POST and DELETE are supported.
+
+POST:
 ```javascript
-import * as rpcLib from "isotropy-lib-webservices";
+import wsLib from "isotropy-lib-webservices";
 
 async function post() {
-  const response = await rpcLib.post("http://www.example.com", { data: "values" })
+  const response = await wsLib.post("http://www.example.com", { data: "values" })
   return response
 }
 ```
